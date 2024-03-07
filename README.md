@@ -19,5 +19,5 @@ Welcome to the BMI calculator! This is a project developed in HTML, CSS and Java
 | Color title       | ![#070F2B](https://via.placeholder.com/10/402B3A?text=+) #070F2B |
 
 ## Dev
-Brenda Beatriz Maciel da Silva, contatobrendabeatriz@gmail.com.<br>
+Brenda Beatriz, contatobrendabeatriz@gmail.com.<br>
 [Linkedin] - (https://www.linkedin.com/in/brenda-beatriz/)
