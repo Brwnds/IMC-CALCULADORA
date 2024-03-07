@@ -5,7 +5,12 @@ form.addEventListener('submit', function(event) {
     event.preventDefault();
 
     const weight = document.getElementById('weight').value;
-    const height = document.getElementById('height').value;
+    let height = document.getElementById('height').value;
+
+    // Verifica se a altura está em centímetros e converte para metros, se necessário
+    if (height > 3) {
+        height = height / 100;
+    }
 
     const bmi = (weight / (height * height)).toFixed(2);
 

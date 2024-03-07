@@ -73,7 +73,14 @@ body {
     margin-top: 3px;
 }
 
-.input-field span,
+.input-field span {
+    color: #fd0896;
+    font-size: 1.3rem;
+    padding: 0.6rem 0.5rem;
+    width: 6rem;
+    text-align: center;
+    text-align: end;
+}
 .input-field span i {
     color: #fd0896;
     font-size: 1.3rem;
@@ -82,16 +89,18 @@ body {
 
 .input-field i.fa-weight-hanging {
     margin-left: 0.5rem;
+    font-size: 1.3rem;
 }
 
 .input-field i.fa-ruler {
     margin-left: 0.5rem;
+    font-size: 1.3rem;
 }
 
 .input-field input {
     background-color: transparent;
     border: none;
-    width: 100%;
+    width: calc(100% - 3rem);
     font-size: 1.3rem;
     color: black;
     padding: 0 0.5rem;
